@@ -243,6 +243,7 @@
                 "Great",
                 "I know",
                 "ok",
+                "nice",
                 "yeah"
             ],
             "responses": [
@@ -323,20 +324,13 @@
         {
             "tag": "riddle",
             "patterns": [
-                "Ask me a riddle",
-                "Ask me a question",
+                "tell me a riddle",
+                "what is a riddle",
+                "tell riddle",
                 "Riddle"
             ],
             "responses": [
-                "What two things can you never eat for breakfast?.....Lunch and Dinner!",
-                "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
-                " How can a girl go 25 days without sleep?.....She sleeps and night!",
-                "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
-                " What will you actually find at the end of every rainbow?.....The letter 'w'",
-                "What can be caught but never thrown?.....A cold!",
-                "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
-                " What 5-letter word becomes shorter when you add two letters to it?.....Short",
-                "Why can't a bike stand on it's own?.....It is two-tired."
+                "get riddle"
             ],
             "context": [
                 "riddles"

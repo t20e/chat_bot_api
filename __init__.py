@@ -1,5 +1,8 @@
 from dotenv import load_dotenv
+from pathlib import Path
+from flask import Flask
 from flask_pymongo import PyMongo
+import os
 
 dotenv_path = Path('flask_app/.env')
 load_dotenv(dotenv_path=dotenv_path)
@@ -12,6 +15,3 @@ mongo = PyMongo(app)
 # print(mongo.db.users)
 users_db = mongo.db.users
 chats_db = mongo.db.chats
-
-if __name__ == '__main__':
-    app.run(port=8080, debug=True)
