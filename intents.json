@@ -1,5 +1,23 @@
 {
     "intents": [
+        {   
+            "tag": "crypto",
+            "patterns":[
+                "whats the price of",
+                "bitcoin",
+                "crypto",
+                "whats is the price",
+                "ethereum",
+                "whats the price of ethereum",
+                "whats the price of bitcoin",
+                "price",
+                "cost",
+                "whats the share cost of "
+            ],
+            "responses": [
+                "the price of is"
+            ]
+        },
         {
             "tag": "Identity",
             "patterns": [
@@ -43,6 +61,8 @@
             "tag": "weather",
             "patterns": [
                 "what is the weather?",
+                "is it raining",
+                "is it snowing",
                 "weather",
                 "what is the weather in my state?",
                 "what is the weather in new york",
@@ -51,7 +71,6 @@
             ],
             "responses": [
                 "what town are you in?",
-                "what state are you in?",
                 "what city are u in?"
             ]
         },
