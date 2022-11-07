@@ -71,6 +71,11 @@ def chatbot():
     return jsonify(reply)
 
 
+@app.errorhandler(404)
+def not_fount(e):
+    return jsonify({'err': 404})
+
+
 def formatString(reply, user_id):
     user = users_db.find_one({"_id": ObjectId(user_id)})
     # print(user['firstName'])
